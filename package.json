@@ -6,12 +6,19 @@
     "dev": "bun --bun next dev --turbopack",
     "build": "bun --bun next build",
     "start": "bun --bun next start",
-    "lint": "bun --bun next lint"
+    "lint": "bun --bun next lint",
+    "db:generate": "bunx prisma generate",
+    "db:push": "bunx prisma db push",
+    "db:studio": "bunx prisma studio"
   },
   "dependencies": {
+    "@prisma/client": "^6.11.1",
+    "iron-session": "^8.0.4",
+    "next": "15.3.5",
+    "prisma": "^6.11.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.5"
+    "twilio": "^5.4.0"
   },
   "devDependencies": {
     "typescript": "^5",
