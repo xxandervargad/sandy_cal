@@ -107,7 +107,7 @@ export default function Home() {
                 <h3 className="text-sm font-medium text-gray-700 mb-2">
                   Response:
                 </h3>
-                <pre className="bg-gray-100 p-3 rounded text-sm overflow-auto max-h-40">
+                <pre className="bg-gray-100 p-3 rounded text-sm overflow-auto max-h-40 border border-gray-300 font-mono whitespace-pre-wrap text-gray-700">
                   {JSON.stringify(testResponse, null, 2)}
                 </pre>
               </div>
@@ -132,7 +132,7 @@ export default function Home() {
                 <h3 className="text-sm font-medium text-gray-700 mb-2">
                   Response:
                 </h3>
-                <pre className="bg-gray-100 p-3 rounded text-sm overflow-auto max-h-40">
+                <pre className="bg-gray-100 p-3 rounded text-sm overflow-auto max-h-40 border border-gray-300 font-mono whitespace-pre-wrap">
                   {JSON.stringify(healthResponse, null, 2)}
                 </pre>
               </div>
