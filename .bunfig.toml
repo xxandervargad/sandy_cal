@@ -1,0 +1,14 @@
+[install]
+# Use exact versions for better reproducibility
+exact = false
+
+[install.scopes]
+# Configure any scoped registries if needed
+
+[test]
+# Configure test settings
+preload = []
+
+[run]
+# Configure run settings
+bun = true 
